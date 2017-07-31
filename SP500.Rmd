@@ -10,18 +10,18 @@ output: github_document
 library(tseries)
 ```
 
-#1 Downloading the data
+## 1 Downloading the data
 ```{r get.hist.quote}
 SNPdata <- get.hist.quote('^gspc',quote="Close")
 ```
 
-#2 Calculate log returns
+## 2 Calculate log returns
 ```{r log, sd, sqrt}
 SNPret <- log(lag(SNPdata)) - log(SNPdata)
 SNPvol <- sd(SNPret) * sqrt(250) * 100
 ```
 
-#3 Calculate volatity measure 
+## 3 Calculate volatity measure 
 ```{r function}
 get
 Vol <- function(d, logrets)
@@ -47,7 +47,7 @@ Vol <- function(d, logrets)
 }
 ```
 
-#4 Calculate volatility over different times using decay factors
+## 4 Calculate volatility over different times using decay factors
 ```{r Vol}
 volest <- Vol(10,SNPret)
 
@@ -56,7 +56,7 @@ volest2 <- Vol(30,SNPret)
 volest3 <- Vol(100,SNPret)
 ```
 
-#5 Plot results, overlaying volatility curves on the data
+## 5 Plot results, overlaying volatility curves on the data
 
 ```{r plot, lines}
 volestplot <- plot(volest,type="l")
