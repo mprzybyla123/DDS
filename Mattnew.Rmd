@@ -65,3 +65,4 @@ lines(volest2,type="l",col="red")
 
 lines(volest3, type = "l", col="blue")
 ```
+![Plot](https://github.com/mprzybyla123/DDS/blob/master/plot%2C%20lines-1.png)
