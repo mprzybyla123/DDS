@@ -2,7 +2,8 @@
 title: "SP500"
 author: "Matt Przybyla"
 date: "7/29/2017"
-output: html_document
+output: html_document:
+  keep_md: true
 ---
 
 ## Running tseries library after installing
