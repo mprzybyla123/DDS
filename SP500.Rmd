@@ -73,4 +73,4 @@ lines(volest3, type = "l", col="blue")
 
 ## Discussion 
 
-To conclude, the plot displays the stability of S&P500. We see one dramatic peak which did not happen enough to be sufficent to say that it is a trend. The smoothing of the lines show that the volatility over time show decay factors align quite nicely with the estimate. 
+To conclude, the plot displays the stability of S&P500. We see one dramatic peak which did not happen enough to be sufficent to say that it is a trend. The smoothing of the lines show that the volatility over time show decay factors aligning quite nicely with the estimate. 
