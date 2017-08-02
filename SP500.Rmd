@@ -6,7 +6,7 @@ output: github_document
 ---
 
 ## Introduction
-We want to download stock data, calculate log returns, volatility measure, volatility over entire length of series for various three different decay factors. Lastly, we want to plot the results, overlaying the volatlity curves on the data. 
+We want to download stock data, calculate log returns, volatility measure, and volatility over entire length of series for various three different decay factors. Lastly, we want to plot the results, while overlaying the volatlity curves on the data. 
 
 ## Running tseries library after installing
 
@@ -73,4 +73,4 @@ lines(volest3, type = "l", col="blue")
 
 ## Discussion 
 
-To conclude, the plot displays the stability of S&P500. We see one dramatic peak which did not happen enough to be sufficent to say that it is a trend. The smoothing of the lines show that the volatility over time show decay factors aligning quite nicely with the data. 
+To conclude, the plot displays the stability of S&P500. We see one dramatic peak, which did not happen enough to be sufficent to say that it is a trend. The smoothing of the lines show that the volatility over time show decay factors aligning quite nicely with the data. 
